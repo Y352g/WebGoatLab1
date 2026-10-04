@@ -1,5 +1,6 @@
 name: SonarQube
 on:
+  workflow_dispatch: 
   push:
     branches:
       - dependabot/docker/alpine-3.24.2
